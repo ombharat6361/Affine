@@ -1,4 +1,5 @@
 # Affine
+```python
 def affine(img,ang=20,sx=0.5,tx=20):
     #Reading the image
     img = cv2.imread(img)
@@ -21,4 +22,4 @@ def affine(img,ang=20,sx=0.5,tx=20):
     dst = cv2.warpAffine(dst,M,(width,height))
     
     return dst
- 
+ ```
